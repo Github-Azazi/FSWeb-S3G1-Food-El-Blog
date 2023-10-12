@@ -100,15 +100,13 @@ section img {
   width:40%
 }
 section>div{
+  margin-top: 20px;
 }
 section>div>div{
   display: inline-block;
   width: 55%;
   margin-left: 20px;
 }
-
-
-
 
 .contact-section {
   border-top: 1px dashed black;
@@ -119,7 +117,9 @@ section>div>div{
   padding: 0;
   margin: 0 0 10px 0;
 }
-
+.contact-section p {
+  font-family: 'Times New Roman';
+}
 /*======= contact-section class'da address tag'i için aşağdıaki stilleri içeren bir selector yaratın:
    line-height: 2;
 */
@@ -130,6 +130,7 @@ footer {
   width: 100%;
   background: #E79947;
   border-top: 1px dashed white;
+
 }
 
 footer .footer-content { 
@@ -157,7 +158,9 @@ footer nav a {
   margin: 10px;
   color: black;
   text-decoration: underline;
+
 }
+
 footer nav a:first-child {
   margin-left: 0;
 }
@@ -166,10 +169,10 @@ footer nav a:first-child {
   color: white;
 */
 footer nav a:hover{
-  color: white;
+  color:white;
+  
 }
-footer .footer-content .copyright {
+footer .Copyright {
   padding: 20px 0;
-   /*======= metni ortalayacak kodu yazın */
-   text-align: center;
+  text-align: center;
 }
